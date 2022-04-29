@@ -1,4 +1,5 @@
 ///// Counting Valleys /////
+// (from HackerRank.com)
 /*
 A string input describes a hiking journey in steps up or steps down. The challenge: find the number of valleys hiked.
 
