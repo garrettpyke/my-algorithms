@@ -18,7 +18,7 @@ This would be considered 1 valley. A valley is defined as any number of steps be
 // If we represent the position above/below sea level as an integer based on steps made, whenever the integer *increases* to 0 a valley was just "passed".
 //  We could test for mountains and valleys with the same logic if needed.
 
-const log = (arg) => console.log(arg) //just a shortcut for console.logs
+const log = (arg) => console.log(arg) //lazy shortcut for console.log
 
 testSteps = 8;
 testTrip = 'UDDDUDUU'

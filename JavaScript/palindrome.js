@@ -10,13 +10,12 @@
 //increment inwards until midpoint, which is str.len / 2
 
 str = 'kayak'
-console.log('str.at(0): ', str.at(0)) // testing...output: k for kayak input
-console.log('str.at(4): ', str.at(4)) // testing...output: k
-
 len = str.length
 
+const log = (arg) => console.log(arg) //lazy shortcut for console.log
+
 function palindromeCheck(word) { 
-    j = 1 // Keep track of end characters  
+    j = 1 // Used to count characters from end of string  
     // Stop testing at midpoint of word. len/2 works for both odd and even numbered palindromes (modulus is dropped).
     for (i=0; i < len/2; i++) {
         if (word.at(i) !== word.at(len-j)) {
@@ -27,4 +26,4 @@ function palindromeCheck(word) {
     return true
 }
 
-console.log(palindromeCheck(str))
+log(palindromeCheck(str))
