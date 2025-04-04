@@ -10,7 +10,7 @@ def prime(number)
     all divisors have been checked, print '{number} is prime'
     move to next lowest, return prime(number - 1)    
 """
-"""  - Iteration 2 -
+"""  - Iteration 2 - (in progress)
 def prime(number)
     if number is 1
         return '{number} is prime'
@@ -30,11 +30,11 @@ def prime_numbers(num):
     the return statements.
     
     Args:
-        number (int): The input number. Note: Max recursion error
+        num (int): The input number. Note: Max recursion error
         possible, depending on Arg, hardware and Python version.
 
     Returns:
-        int: The result of number!
+        str | str[]: One short string for each prime number in the range (num, 1).
     """
     if num == 1:
         return f"{num} is prime."
