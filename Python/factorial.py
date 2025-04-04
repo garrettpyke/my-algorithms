@@ -1,4 +1,4 @@
-number = 5
+number = 998
 
 def factorial(number):
     """
