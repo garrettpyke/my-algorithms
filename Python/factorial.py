@@ -6,7 +6,7 @@ def factorial(number):
     
     Args:
         number (int): The input number. Note: Max recursion error
-        possible, depending on hardware and Python version.
+        possible, depending on Arg, hardware and Python version.
 
     Returns:
         int: The result of number!
