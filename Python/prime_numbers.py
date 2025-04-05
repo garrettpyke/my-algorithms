@@ -20,21 +20,16 @@ def prime(number)
             #todo: number-- & ?
         continue in the range up to number - 1
     all divisors have been checked, print '{number} is prime'
-    move to next lowest, return prime(number - 1)    
+    move to next lowest, return prime(number - 1)
 """
 
 def prime_numbers(num):
-    """
-    Recursive prime numbers finder. In this iteration it's not very elegant or 
-    condensed, so consider how it can be refactored to fewer lines, starting with
-    the return statements.
-    
-    Args:
-        num (int): The input number. Note: Max recursion error
-        possible, depending on Arg, hardware and Python version.
+    """Recursive prime numbers finder.
+    Not terribly elegant or condensed...consider how it can be refactored to fewer lines, starting with the return statements.
 
-    Returns:
-        str | str[]: One short string for each prime number in the range (num, 1).
+    :param num: int - maximum number to calculate prime numbers from. note, max recursion error possible, depending on param, hardware and Python ver.
+
+    :return: str -  one short string for the final prime number in the range. Fn also prints each prime number in the range (num, 1).
     """
     if num == 1:
         return f"{num} is prime."
